@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Invie - Tus Mejores Guitarras!!</title>
+	<link rel="stylesheet" type="text/css" href="css/invie.css">
+	<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+</head>
+<body>
+	<header id="header" class="header contenedor ">
+		
+		<figure class="logotipo"> <!-- logotipo -->
+			<img src="img/invie2x.png" width="186" height="60" alt="Invie Logotipo"> 
+		</figure>
+		<nav class="menu"> <!-- menu -->
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Precios</a></li>
+				<li><a href="#guitarras">Guitarras</a></li>
+			</ul>
+			
+		</nav>
+	</header>
+	<section id="portada" class="portada"> <!-- portada -->
+		<div class="contenedor">
+		<h1 class="titulo">Guitarras Invisibles</h1> <!-- ttitulo -->
+		<h3 class="title-a">Se La Estrella De Rock Que Siempre Guisiste Ser</h3> <!-- resumen -->
+		<button>Conoce Mas</button> <!-- boton -->
+		</div>
+	</section>
+	<section id="guitarras" class="guitarras contenedor"> <!-- Guitarras -->
+		<h2>Nuestras Guitarras</h2><!-- titulo -->
+		<article class="guitarra">
+			<img class="derecha" src="img/invie-acustica.png" height="350">
+			<div class="contenedor-guitarra-a">
+			<h3 class="title-b">Invi Acustica</h3>
+			<ol>
+				<li>Estilo Vintage</li>
+				<li>Madera Pura</li>
+				<li>Incluye Esctuche Invisible De Alumninio</li>
+			</ol>
+			</div>
+		</article>
+		<article class="guitarra">
+			<img class="izquierda" src="img/invie-classic.png" height="350">
+			<div class="contenedor-guitarra-b">
+			<h3 class="title-b">Invi Classic</h3>
+			<ol>
+				<li>Estilo Vintage</li>
+				<li>Liviana</li>
+				<li>Inicia Tu Camino Como Rocktar</li>
+			</ol>
+			</div>
+		</article>
+	</section>
+	<footer class="footer">
+		<div class="contenedor">
+			<div class="contacto">
+				<img src="img/invie-white.png">
+				<a href="tel:+573023873245"><strong>Telefono</strong><span>3023873245</span></a>
+				<a href="mailto:oswaldox199@gmail.com"><strong>Email</strong><span>oswaldox199@gmail.com</span></a>	
+			</div>
+			<form action="">
+				<label for="nombre">Nombre</label>
+				<input type="text" required id="nombre">
+				<label for="email">E-mail</label>
+				<input type="email" required id="email">
+				<div class="sexo">
+					<label for="mujer">
+						<input type="radio" id="mujer" name="sexo">Mujer
+					</label>
+					<label for="hombre">
+							<input type="radio" id="hombre" name="sexo">Hombre
+					</label>
+				</div>
+				<div class="intereces">
+					<label for="cotizacion">
+						<input type="checkbox" id="cotizacion" name="intereces">cotizacion
+					</label>
+					<label for="reclamos">
+							<input type="checkbox" id="reclamos" name="reclamos">reclamos
+					</label>
+					<label for="comentarios">
+							<input type="checkbox" id="comentarios" name="intereces">comentarios
+					</label>
+					<label for="otros">
+							<input type="checkbox" id="otros" name="intereces">cotizacion
+					</label>
+				</div>
+			</form>
+		</div>
+	</footer>
+</body>
+</html>

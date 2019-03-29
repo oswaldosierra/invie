@@ -60,34 +60,41 @@
 				<a href="tel:+573023873245"><strong>Telefono</strong><span>3023873245</span></a>
 				<a href="mailto:oswaldox199@gmail.com"><strong>Email</strong><span>oswaldox199@gmail.com</span></a>	
 			</div>
-			<form action="">
-				<label for="nombre">Nombre</label>
-				<input type="text" required id="nombre">
-				<label for="email">E-mail</label>
-				<input type="email" required id="email">
-				<div class="sexo">
-					<label for="mujer">
-						<input type="radio" id="mujer" name="sexo">Mujer
-					</label>
-					<label for="hombre">
-							<input type="radio" id="hombre" name="sexo">Hombre
-					</label>
-				</div>
-				<div class="intereces">
-					<label for="cotizacion">
-						<input type="checkbox" id="cotizacion" name="intereces">cotizacion
-					</label>
-					<label for="reclamos">
-							<input type="checkbox" id="reclamos" name="reclamos">reclamos
-					</label>
-					<label for="comentarios">
-							<input type="checkbox" id="comentarios" name="intereces">comentarios
-					</label>
-					<label for="otros">
-							<input type="checkbox" id="otros" name="intereces">cotizacion
-					</label>
-				</div>
-			</form>
+			<div class="formulario">
+				<form action="">
+					<label for="nombre">Nombre</label>
+					<input type="text" required id="nombre">
+					<label for="email">E-mail</label>
+					<input type="email" required id="email">
+					<div class="sexo">
+						<label for="mujer">
+							<input type="radio" id="mujer" name="sexo" value="Mujer">Mujer
+						</label>
+						<label for="hombre">
+								<input type="radio" id="hombre" name="sexo" value="Hombre">Hombre
+						</label>
+					</div>
+					<div class="intereces">
+						<label for="cotizacion">
+							<input type="checkbox" id="cotizacion" name="intereces" value="cotizacion">cotizacion
+						</label>
+						<label for="reclamos">
+								<input type="checkbox" id="reclamos" name="reclamos" value="reclamos">reclamos
+						</label>
+						<label for="comentarios">
+								<input type="checkbox" id="comentarios" name="intereces" value="comentarios">comentarios
+						</label>
+						<label for="otros">
+								<input type="checkbox" id="otros" name="otros" value="cotizacion">cotizacion
+						</label>
+					</div>
+					<div>
+						<label class="comentarios">cometarios</label>
+						<textarea name="cometarios" id="" cols="30" rows="5"></textarea>
+						<input type="submit" value="Enviar"/>
+					</div>
+				</form>
+			</div>
 		</div>
 	</footer>
 </body>

@@ -24,6 +24,11 @@ button {
 	margin-left: 30px
 }
 
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
 .titulo{
 	font-size: 70px;
 	font-family: 'Montserrat', sans-serif;

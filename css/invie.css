@@ -1,14 +1,26 @@
 body{
-	font-family: 'Allerta', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	margin: 0;
 }
 
-button {
-	border-radius: 5px;
+.button {
+	border-radius: 12px;
 	background: #fd324e;
 	border: none;
 	color: white;
-	padding: 8px;
+	font-size: 18px;
+	padding: 8px 12px;
+	align-items: flex-start;
+	background: linear-gradient(to left, #fe344e, #ff7250);
+	cursor: pointer;
+	text-decoration: none;
+}
+
+input, textarea{
+	outline: 0;
+}
+input:focus, textarea:focus{
+	background: lightgray;
 }
 
 .logotipo{
@@ -16,6 +28,7 @@ button {
 }
 
 .menu{
+	margin-left: 20%;
 	font-size: 24px;
 	display: inline-block;
 }
@@ -27,6 +40,9 @@ button {
 .menu a{
 	color: white;
 	text-decoration: none;
+}
+#negrita{
+	text-decoration: underline
 }
 
 .titulo{
@@ -61,6 +77,7 @@ button {
 	color: white;
 	background-size: cover;
 	padding: 20px;
+	height: 500px;
 }
 
 .portada button{
@@ -73,14 +90,14 @@ button {
 }
 
 .contenedor{
-	width: 800px;
+	width: 1000px;
 	margin: auto;
 }
 
 .derecha{
 	float: right;
 	position: relative;
-	top: -126px;
+	top: -136px;
 }
 
 .izquierda{
@@ -105,7 +122,7 @@ button {
 }
 
 .contenedor-guitarra-b{
-	margin-left: 450px;
+	margin-left: 60%;
 	position: relative;
 	top: -40px
 	
@@ -115,15 +132,28 @@ button {
 	padding: 0;
 }
 
-footer{
+.footer{
 	background: #273b47;
 	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacto{
+	display: flex;
+	width: 330px;      
+	flex-wrap: wrap;
+	align-items: flex-start;
 }
 
 .contacto img{
-	display: block;
+	display:block;
 	padding-top: 40px;
-	padding-bottom: 40px
 }
 
 .contacto strong{
@@ -136,7 +166,43 @@ footer{
 	display: inline-block;
 	margin: 8px;
 }
+.email-numero{
+	display: flex
+}
 
-.formulario {
-	display: inline-block;
+.formulario{
+	display: flex; 
+	width: 500px;
+	color: white;	
+	padding: 50px 10px;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+.col1{
+	margin-right: 15px;
+}
+.col2{
+	align-items: flex-start;
+}
+
+.formulario label, .sexo, .intereces{
+	margin-bottom: 10px;
+}
+.sexo{
+	margin-top: 15px;
+}
+
+table{
+	width: 100%;
+}
+th{
+	background: #273b47;
+	color: white;
+	padding: 10px;
+}
+td{
+	padding: 20px;
 }

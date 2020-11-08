@@ -79,7 +79,12 @@ input:focus, textarea:focus{
 	padding: 20px;
 	height: 500px;
 }
-
+.header-precios{
+	background-image: url(../img/background.png);
+	color: white;
+	background-size: cover;
+	padding: 20px;
+}
 .portada button{
 	margin-bottom: 70px;
 }
@@ -187,6 +192,9 @@ input:focus, textarea:focus{
 .col2{
 	align-items: flex-start;
 }
+.col2 input{
+	margin-top: 8px;
+}
 
 .formulario label, .sexo, .intereces{
 	margin-bottom: 10px;
@@ -197,12 +205,24 @@ input:focus, textarea:focus{
 
 table{
 	width: 100%;
+	margin: 50px 0;
 }
 th{
 	background: #273b47;
 	color: white;
-	padding: 10px;
+	padding: 10px 20px;
+	text-align: left;
 }
 td{
 	padding: 20px;
+}
+table, td, th{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+#precios{
+	min-height: 10vh;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
